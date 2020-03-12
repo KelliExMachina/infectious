@@ -34,12 +34,10 @@ There were numerous caveats with collecting the data, most notably summarizing a
 ## Illustrations 
 
 
-![Infections by Age](./img/infections_age.svg) 
-<img src="./img/infections_age.svg"> 
-![MF](./img/mf_inf_percent.svg) 
-<img src="./img/mf_inf_percent.svg">  
-![GDP](./img/statecasesvsgdp.svg)
-<img src="./img/statecasesvsgdp.svg"> 
+![Infections by Age](img/infections_age.jpg) 
+![MF](img/mf_inf_percent.jpg)   
+![GDP](img/statecasesvsgdp.jpg)
+
 
 ## Recommendations
 
