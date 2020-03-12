@@ -2,9 +2,9 @@
 
 # STD Cases on the Rise in the US
 
-## Executive Summary
+## Context
 
-
+The rate of STD infections are on the rise in the US.  This project started as an attempt to determine the cause of the recent rise in infections, however it was best to identify determine who is most at risk so those people could better protect themselves. 
 
 ## Table of Contents
 
@@ -16,9 +16,6 @@
 - [Data Sources](#Data-Sources)
 - [Next steps](#Next-steps)
 
-## Context
-The rate of STD infections are on the rise in the US.  This project started as an attempt to determine the cause of the recent rise in infections, however it was best to identify determine who is most at risk so those people could better protect themselves. 
-
 ## Content
 
 The data collected is mostly numeric and compiled from publicly accessible government resources, namely the [Center for Disease Control](https://wonder.cdc.gov/controller/datarequest/D128) (CDC) and the [Bureau of Economic Analysis](https://www.bea.gov/) (BEA).  
@@ -28,15 +25,21 @@ Due to the limitations of the CDC web based interface, nine different datasets w
 There were numerous caveats with collecting the data, most notably summarizing all STDs while maintaining granularity with categorical data.  The CDC search tool returned a plain text file that was not spaced properly horizontally and vertically.  Aside from the mechanics of collecting the data, there were several important pieces of data that would have been beneficial.  The most beneficial would be the method of infection.  As people who test positive are tracked, including a simple 
 
 ## Analysis
-	- EDA results, and what they mean for the business context / problem
-	- Model results, and what they mean for the business context / problem
+
+- R-squared = 1 on raw data. 
+- Strong multicollinearity indicated by the pair plot.
+- P-values indicate only 3 engineered features for the model
+- Added external economic data with no affect
 
 ## Illustrations 
 
+![Ages](./img/infections_age.svg)  
+![MF](./img/mf_inf_percent.svg)  
+![GDP](./img/statecasesvsgdp.svg) 
 
 ## Recommendations
-	- What actions should someone facing the problem / biz context you're investigating do, on the basis of your analysis? 
-    Post college age, state with high GDP (CA, NY, TX), 
+
+To lower your risk, select someone who is post college age, choose a state with high GDP (CA, NY, TX), and male! 
 
 ## Data-Sources
 
@@ -45,23 +48,5 @@ There were numerous caveats with collecting the data, most notably summarizing a
 
 ## Next-steps  
  
-What I'd like to do moving forward
+Moving forward, I'd like to find the infection method to add to the model.  I'd also like to have permission from dating apps to pull their usage numbes (by state.)
 
-
-__
-Project mod 2
-Started for trying to explain cdc increase in STDs. 
-Common assumption is that the infection rate increases as education ledecrease in std
-Dating app data not readily public
-CDC doesn’t have stats on drug use. 
-
----
-
-Give the business context / problem that you're investigating
-brief explanation of data and methods
-- where's the data from- how many rows- caveats?
-Analysis
-- EDA results, and what they mean for the business context / problem- Model results, and what they mean for the business context / problem
-Recommendations
-What actions should someone facing the problem / biz context you're investigating do, on the basis of your analysis? Add your second bullet point here
-Add your third bullet point here
