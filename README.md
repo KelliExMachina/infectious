@@ -34,9 +34,9 @@ There were numerous caveats with collecting the data, most notably summarizing a
 ## Illustrations 
 
 
-![Ages](./img/infections_age.svg)  
-![MF](./img/mf_inf_percent.svg)  
-![GDP](./img/statecasesvsgdp.svg) 
+![Ages](img/infections_age.svg)  
+![MF](img/mf_inf_percent.svg)  
+![GDP](img/statecasesvsgdp.svg) 
 
 ## Recommendations
 
