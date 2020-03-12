@@ -35,7 +35,8 @@ There were numerous caveats with collecting the data, most notably summarizing a
 
 
 ## Recommendations
-	- What actions should someone facing the problem / biz context you're investigating do, on the basis of your analysis?  
+	- What actions should someone facing the problem / biz context you're investigating do, on the basis of your analysis? 
+    Post college age, state with high GDP (CA, NY, TX), 
 
 ## Data-Sources
 
@@ -54,3 +55,13 @@ Common assumption is that the infection rate increases as education ledecrease i
 Dating app data not readily public
 CDC doesn’t have stats on drug use. 
 
+---
+
+Give the business context / problem that you're investigating
+brief explanation of data and methods
+- where's the data from- how many rows- caveats?
+Analysis
+- EDA results, and what they mean for the business context / problem- Model results, and what they mean for the business context / problem
+Recommendations
+What actions should someone facing the problem / biz context you're investigating do, on the basis of your analysis? Add your second bullet point here
+Add your third bullet point here
